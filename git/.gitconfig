@@ -1,6 +1,6 @@
 [user]
-	name = Alejandro Ayala Ati
-	email = alejandro.ayala@solmedia.ec
+	name = Alejandro Ayala
+	email = mayalaat@pichincha.com
 [core]
 	autocrlf = input
 [core]
@@ -23,3 +23,10 @@
     hunk-header-file-style = red
     hunk-header-line-number-style = "#067a00"
     hunk-header-style = file line-number syntax
+[alias]
+    st = status
+    c = !git add -A && git commit
+    ca = !git add --all && git commit --amend --no-edit
+    ch = checkout
+    f = fetch --all -p
+    reset-permissions = !git diff -p -R --no-color | grep -E \"^(diff|(old|new) mode)\" --color=newer | git apply

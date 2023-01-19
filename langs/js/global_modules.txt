@@ -1,0 +1,7 @@
+npm install -g tldr
+
+npm install -g nest
+
+npm install -g react-native-version
+
+npm install -g jhipster/generator-jhipster#v7.x_maintenance
